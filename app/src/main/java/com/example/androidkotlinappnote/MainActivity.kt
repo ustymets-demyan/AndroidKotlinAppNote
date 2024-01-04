@@ -3,6 +3,10 @@ package com.example.androidkotlinappnote
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
+import com.example.androidkotlinappnote.database.NoteDatabase
+import com.example.androidkotlinappnote.repository.NoteRepository
+import com.example.androidkotlinappnote.viewmodel.NoteViewModel
+import com.example.androidkotlinappnote.viewmodel.NoteViewModelFactory
 import java.util.*
 
 class MainActivity : AppCompatActivity (){
