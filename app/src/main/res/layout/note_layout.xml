@@ -15,6 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:background="@drawable/pink_border"
             android:padding="16dp">
 
             <TextView
@@ -24,6 +25,7 @@
                 android:layout_weight="200"
                 android:textColor="@color/red"
                 android:text="Note Title"
+                android:textCursorDrawable="@drawable/custom_cursor"
                 android:textStyle="bold"
                 android:textSize="18sp"/>
 
@@ -34,6 +36,7 @@
                 android:layout_marginTop="8dp"
                 android:maxHeight="170dp"
                 android:text="Description"
+                android:textCursorDrawable="@drawable/custom_cursor"
                 android:textSize="14sp"
                 android:textColor="@color/pink"/>
 
