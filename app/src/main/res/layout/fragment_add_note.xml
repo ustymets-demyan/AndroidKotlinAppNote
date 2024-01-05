@@ -29,9 +29,9 @@
             android:layout_height="60dp"
             android:layout_below="@id/addNoteHeading"
             android:layout_marginTop="16dp"
-
+            android:background="@drawable/custom_input"
             android:hint="Введіть заголовок"
-
+            android:textCursorDrawable="@drawable/custom_cursor"
             android:maxLines="1"
             android:padding="12dp"
             android:singleLine="false"
@@ -47,8 +47,8 @@
             android:gravity="top"
             android:padding="12dp"
             android:textSize="17sp"
-
-
+            android:textCursorDrawable="@drawable/custom_cursor"
+            android:background="@drawable/custom_input"
             android:layout_below="@id/addNoteTitle"
             android:layout_marginTop="6dp" />
 

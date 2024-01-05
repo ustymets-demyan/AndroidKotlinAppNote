@@ -29,8 +29,10 @@
             android:layout_height="60dp"
             android:hint="Введіть заголовок"
             android:padding="12dp"
+            android:textCursorDrawable="@drawable/custom_cursor"
             android:textSize="20sp"
             android:layout_below="@id/editNoteHeading"
+            android:background="@drawable/custom_input"
             android:layout_marginTop="16dp"
             android:maxLines="1" />
 
@@ -39,9 +41,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Добавте запис"
+            android:textCursorDrawable="@drawable/custom_cursor"
             android:gravity="top"
             android:padding="12dp"
             android:textSize="18sp"
+            android:background="@drawable/custom_input"
             android:layout_below="@id/editNoteTitle"
             android:layout_marginTop="12dp" />
 
@@ -54,6 +58,7 @@
             android:clickable="true"
             android:backgroundTint="@color/pink"
             android:tintMode="@color/white"
+            android:src="@drawable/icon_check"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:contentDescription="editFab" />

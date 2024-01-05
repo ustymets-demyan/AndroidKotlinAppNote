@@ -70,7 +70,6 @@ class EditNoteFragment :  Fragment(R.layout.fragment_edit_note), MenuProvider {
 
     private fun deleteNote(){
         AlertDialog.Builder(activity).apply {
-            setTitle("Видалити Нотатку")
             setMessage("Ви впевнені що бажаєте видалити нотатку?")
             setPositiveButton("Так"){_,_ ->
                 notesViewModel.deleteNote(currentNote)
