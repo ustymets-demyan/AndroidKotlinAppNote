@@ -16,8 +16,10 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.androidkotlinappnote.MainActivity
 import com.example.androidkotlinappnote.R
+import com.example.androidkotlinappnote.adapter.NoteAdapter
 import com.example.androidkotlinappnote.databinding.FragmentHomeBinding
 import com.example.androidkotlinappnote.model.Note
+import com.example.androidkotlinappnote.viewmodel.NoteViewModel
 
 
 class HomeFragment : Fragment(R.layout.fragment_home) , SearchView.OnQueryTextListener, MenuProvider {
